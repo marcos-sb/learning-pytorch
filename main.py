@@ -1,5 +1,9 @@
+import torch
+
+
 def main():
-    print("Hello from learning-pytorch!")
+    x = torch.rand(3,5)
+    print(x)
 
 
 if __name__ == "__main__":
